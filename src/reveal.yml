@@ -1,0 +1,18 @@
+---
+title: |
+  Intrinsically Disordered Proteins
+author: Maeve Andersen
+date: Tue Sep 26 2023
+theme: solarized
+header-includes: |
+    <style>
+    .reveal {
+    font-size: 20pt;
+    line-height: 1.2em;
+    }
+    .reveal pre code {
+    font-size: 16pt;
+    line-height: 1.2em;
+    }
+    </style>
+---
