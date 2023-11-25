@@ -1,0 +1,131 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{braket}
+
+% Custom commands
+\newcommand{\refsec}[1]{Section~\ref{#1}}
+\newcommand{\mat}[1]{\mathbf{#1}}
+
+
+\title{Intrinsically Disordered Proteins}
+\author{Maeve Andersen}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Intrinsically Disordered Proteins (IDPs) are an exciting field of research in biophysics. They are proteins that live in the boundary between order and disorder, they have no rigid 3D structure, but they are still able to complete complex tasks within nature. In fact their near chaotic behavior is what allows them to be so versatile, as environmental changes can cause disorder-order transitions necessary in biological functions. In this paper, I will review IDPs. In particular I will review their core phenomena, their dynamics via a toy model of protein transitions using the energy landscape model, how IDPs are measured using Nuclear Magnetic Resonance, and finally how IDPs are studied today using a combination of computational methods and experimental measurements.
+\end{abstract}
+
+\section{Ideas}
+
+For the introduction, I'll want to have actual physics right off the bat. Let's just get right to the point and introduce the \textbf{landscape binding model}. This model is grounded in physics, is simple to explain, but also is robust enough to properly predict a lot of "introductory" protein behavior, such as:
+
+\begin{itemize}
+    \item lock-and-key binding
+    \item denaturization
+    \item ANS Binding?
+\end{itemize}
+\section{Introduction to Intrinsically Disordered Proteins}
+
+%INSERT MOTIVATION%
+Intrinsically disordered proteins (IDPs) challenge the "lock-and-key" paradigm, which has dominated the field of protein science for the nearly the past century \cite{fischer_einfluss_1894}. The lock-and-key paradigm follows naturally from ideas around chemical structure, where molecules such as benzene form a ring shape, or where DNA encodes genetic data in helix structures, which is given by RNA, which is finally determined by a sequence. The lock-and-key paradigm is founded in the idea that sequence implies structure, which then implies function of a protein. While this idea of $\text{sequence} \rightarrow \text{structure} \rightarrow \text{function}$ holds for many structured proteins, it falls short to describe IDPs, which are turning out to be a rather common and crucial functional protein that has no unique 3D structure, but still is functional in many physiological systems. %cite A. Keith Dunker, Celeste J. Brown, and Zoran Obradovic. “Identification and functions of usefully disordered proteins”. In: Unfolded Proteins. Vol. 62. Advances in Protein Chemistry. Academic Press, 2002, pp. 25–49. doi: https://doi.org/10.1016/S0065-3233(02)620042. url: https://www.s%  
+
+\subsection{History of IDPs: How we got to the modern day field}
+
+To begin the discussion of , I will discuss the history behind the field of protein science and how IDPs  This section aims to introduce the following ideas: It is understandable that the protein community assumed functional proteins have unique structure, IDPs were 
+
+On 1894, Fischer released a paper that presented the lock-and-key mechanism to explain enzyme function.
+The mechanism models a protein as a key of sorts, where the protein's unique shape determines its unique biological function (the lock). \cite{fischer_einfluss_1894}.
+This way of thinking about functional proteins as rigid key-like objects would dominate the field of protein science for the next century.
+Currently, there are many methods available to study folded protein dynamics, where the protein has a "native state" that undergoes structural fluctuations. these methods however, cannot be used to study IDPs, as IDPs do not have a "native state" to center fluxuations around \cite{felliIntrinsicallyDisorderedProteins2015}.
+IDPs are instead characterized as ensembles. 
+that proteins have a "native state," i.e.  researching ways to characterize proteins that have disorder. Intrinsically disordered proteins (IDPs) carry out many biological functions despite having no unique structure\cite{dunker_intrinsic_2002}. In this paper, I will review recent work done on IDPs. Section-I introduces the somewhat recent use of modeling a protein as existing in a free energy landscapes, where a protein is thought of as an ensemble of conformations \cite{lau_lattice_1989}\cite{miller_ligand_1997}. Section-II outlines the combined use of Molecular Dynamics Simulations (theory) and Nuclear Magnetic Resonance measurements (experiment) to characterize IDPs \cite{fu_structure_dynamics_2015},\cite{fisher_constructing_2011},\cite{motlagh_ensemble_2014} . Section-III provides two complex phenomena that are accounted for by the ensemble model of IDPs. The first is allostery, where IDPs transmit bonding information in biological systems. The second is Min-Protein Patterns, and how membrane binding of MinE (an IDP), allows one to computationally account for all observed Min-Protein patterns observed in the lab or in living cells. \cite{bonny_membrane_2013}
+
+\section{Section-I}
+
+
+
+\section{Molecular Dynamics Combined with Experimental Nuclear Magnetic Resonance Measurements: A Modern Approach}
+
+\subsection{Nuclear Magnetic Resonance Observables}
+
+%DESCRIBE clore_theory_2009%
+Paramagnetic Nuclear Magnetic Resonance (NMR) is a powerful tool to study  dynamic processes involving macromolecules. In particular, paramagnetic relaxation enhancement (PRE) can provide structural information of dynamic processes. This is due to the $r^{-6}$ distance dependence of the PRE between the paramagnetic center and the nucleus of interest. PRE arises from dipolar interactions between a nucleus and the unpaired electrons of the paramagnetic center. This results in an increase in nuclear relaxation rates. 
+
+For IDPs, or any macromolecule with minor states of interest (states that are not a global minima of the free energy), the key idea is that the observed PRE rates in the fast exchange regime are population weighted averages for the major and minor species. For minor species with low populations (such as 1\%), if the exchange rate with a major specie is fast, then the minor specie can actually dominate the measured PRE \cite{clore_theory_2009}.
+
+\subsection{}
+
+\subsection{Modeling IDPs as Conformational Ensembles}
+
+
+Unlike their structured counterparts, IDPs cannot be represented by an average state or conformation (otherwise known as a "native" state). This is due to the highly fluctuating nature of IDPs. Instead, IDPs must be described as conformational ensembles, which are in essence, a set of protein conformations and associated weights. The conformational ensemble description poses two challenges. The first is the "force field problem," which corresponds to assigning an energy to each conformation. The second is the "conformational sampling problem," which is where computing all possible conformations of an IDP is not tractable, so one much try to sample the conformational space where the statistical weights are non-negligible \cite{fu_structure_dynamics_2015}.
+
+\subsubsection{The Conformational Ensemble}
+
+For the purposes of this paper, a conformational ensemble $\Phi$ is just a set of conformations, $\left \{ \phi_i \right \}$ and a set of corresponding weights $\{ w_i \}$. That is:
+
+\begin{equation} \label{eq:conformational_ensemble}
+    \Phi = \begin{bmatrix}
+        \{ \phi_i \, ... \} \\
+        \{ w_i \, ...\}
+    \end{bmatrix}
+\end{equation}
+
+
+
+\subsection{Ensemble Building Algorithms}
+
+Modern approaches to studying IDPs often combine computational methods with experimental measurements. In practice, ensemble building algorithms are used to select a conformational ensemble $\Phi$ from a set of experimental measurements. There exist several ensemble building algorithms. Here I will be reviewing ensemble restrained molecular dynamics (MD)
+
+\section{Section II}
+
+\subsection{Min-Protein Patterns}
+
+Escherichia coli are bacteria have the shape of rods. When undergoing cell division, these bacteria split such that the splitting plane is placed in the center of the bacteria along the axial, or z direction. The function of "selecting the midpoint" of the cell is carried out by the MinProtein system, which forms a standing wave along the z direction of the cell. \cite{lutkenhaus_assembly_2007}\cite{raskin_rapid_1999}\cite{hu_topological_1999}.
+
+A key feature of this process is the binding of MinE to MinD \cite{loose_protein_2011}. Currently, there is evidence that MinE is particularly disordered at its N-tale. It has been suggested that this disorder may be what enables MinE to undergo its structural change when in the presence of MinD \cite{uversky_unusual_2013}. 
+
+text
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.1]{minbacteria.jpg}
+    \caption{Min bacteria example figure.}
+    \label{fig:min-bacteria}
+\end{figure}
+
+\subsection{Capsule Example}
+
+text
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.1]{minbacteria.jpg}
+    \caption{Caption}
+    \label{fig:capsule}
+\end{figure}
+
+\section{Paramagnetic Relaxation}
+
+
+Following \cite{solomon_relaxation_1955}, suppose you have a particle of spin $\mathbf{I}$ interacting with a particle of spin $\mathbf{S}$ in a magnetic field pointed along the z direction with strength $H_0$. Then the Hamiltonian of the two particles in the field is:
+\begin{equation}
+    \mathcal{H} = \mathcal{H}_{M} -\hbar \gamma_I H_0 \mathcal{I}_z -\hbar \gamma_S H_0 \mathcal{S} + \mathcal{H}'
+\end{equation}
+
+As shown in \cite{solomon...}, ???
+\bibliographystyle{alpha}
+\bibliography{refs,intro}
+
+\end{document}
