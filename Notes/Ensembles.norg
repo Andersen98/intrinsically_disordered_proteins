@@ -1,0 +1,62 @@
+@document.meta
+title: Ensembles
+description: 
+authors: kathy
+categories: 
+created: 2023-12-02T02:17:06-0700
+updated: 2023-12-02T02:58:48-0700
+version: 1.1.1
+@end
+
+{:$/index:* TOC}
+* Conformational Ensembles Determine Protein Structure
+  {larsenSimultaneousDeterminationProtein2005}{bonomiPrinciplesProteinStructural2017}{thomasenConformationalEnsemblesIntrinsically2022}  In order to describe the structure of proteins with a high degree of heterogenuity, one must use conformational ensembles. 
+  Comformational ensembles encode the populations of a proteins relevant conformations.
+
+  {bonomiPrinciplesProteinStructural2017} {larsenSimultaneousDeterminationProtein2005} {schneidman-duhovnyUncertaintyIntegrativeStructural2014} When determining conformational ensembles, neither experiment or computational model can be used in isolation. 
+  
+  {schneidman-duhovnyUncertaintyIntegrativeStructural2014} Data collected from experiment is sparse, meaning the number of unique observations is less that the degrees of freedom.
+
+  {bonomiPrinciplesProteinStructural2017} Computational methods such as Monte Carlo or molecular dynamics also fall short to determine protein structure:
+  ~ The force fields used in in even the most advanced methods are still approximations. This can lead to large errors in predicted properties of proteins.
+  ~ Limited computational resources put an upper bound on the protein simulation time.
+    This means that these methods may "run out of time" before a conformational space is fully explored.
+
+  {bonomiPrinciplesProteinStructural2017} {thomasenConformationalEnsemblesIntrinsically2022} {larsenSimultaneousDeterminationProtein2005} Combining data from experiment with computational methods is a promising method of protein structure determination. 
+
+  {thomasenConformationalEnsemblesIntrinsically2022}  There are usually 4 components in combining biophysical experiments and computational modeling.
+  ~ one or more experiments whose data gives information on protein strucure
+  ~ a method to sample protein conformations computationally
+  ~ a forward model, which calculates experimental observables from the conformational ensemble
+  ~ a refinement method, which refines the ensemble based on experimental data
+ 
+{wardIntegrativeStructuralBiology2013} The past decade has seen the development of many hybrid methods that combine theory and experiment. 
+
+  {thomasenConformationalEnsemblesIntrinsically2022} The most recent developments however have been in dealing with effects due to averaging over ensembles, as well as dealing with errors in experimental data, noise, and ambiguous data. 
+
+** Bayesian Inference methods
+
+
+  {bonomiPrinciplesProteinStructural2017} There is no consensus on how to compare structural ensembles that were generated using different techniques.
+
+  {gaalswykEmergingRolePhysical} It is important to note that the term "ensemble" is often not carefully used within the field of structural biology.
+   {gaalswykEmergingRolePhysical} In statistical mechanics, a protein's ensemble, given some set of conditions, is a probabability distribution over all possible conformations of that protein.
+   {gaalswykEmergingRolePhysical} In structural biology, the term is overloaded to mean many different things.
+   {gaalswykEmergingRolePhysical} There is for example, a thermodynamic ensemble, which refers to the distribution of a protein's conformations under thermal equilibrium.
+   {gaalswykEmergingRolePhysical} Next, there is an uncertainty ensemble, which is a collection of conformations that are degenerate due to sparse, ambiguous, or noisy data.
+   {gaalswykEmergingRolePhysical} Uncertainty ensembles may be further broken down as procedurally generated, or as coming from a well defined distribution.
+   This section will review the different types of "ensembles" used in structural biology. 
+
+** Conformational Sampling
+
+
+   {ozenneFlexiblemeccanoToolGeneration2012} An example of this is flexible-meccano, which uses amino-acid specific hard spheres to avoid steric clashes when generating polypetide conformations. 
+   {ozenneFlexiblemeccanoToolGeneration2012} These choices are
+   --- (in zotero) Thomasen and Lindorff-Larsen, “Conformational Ensembles of Intrinsically Disordered Proteins and Flexible Multidomain Proteins.”
+* Papers
+  
+  ** larsenSimultaneousDeterminationProtein2005
+  ** thomasenConformationalEnsemblesIntrinsically2022
+  ** bonomiPrinciplesProteinStructural2017
+  ** schneidman-duhovnyUncertaintyIntegrativeStructural2014
+** wardIntegrativeStructuralBiology2013

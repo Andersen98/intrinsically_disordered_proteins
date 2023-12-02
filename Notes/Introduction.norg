@@ -1,0 +1,22 @@
+@document.meta
+title: Introduction
+description: 
+authors: kathy
+categories: 
+created: 2023-12-02T02:36:35-0700
+updated: 2023-12-02T02:45:49-0700
+version: 1.1.1
+@end
+
+{:$/index:* TOC}
+
+* Introduction
+** Justification as To Why Intrinsically Disordered Proteins Should Be Investigated
+   {wrightIntrinsicallyDisorderedProteins2015} IDPs are needed in cellular signaling.
+   {uverskyIntrinsicallyDisorderedProteins2008} IDPs are associated with human diseases, such as neurodegenerative disease,  cardiovascular disease, amyloidoses, cancer, and diabetes.
+   {bonomiSimultaneousDeterminationProtein2018} Developing methods that account for IDP structure and dynamics has provided new insights to important human biological mechanisms.
+
+* Papers
+** wrightIntrinsicallyDisorderedProteins2015
+** uverskyIntrinsicallyDisorderedProteins2008
+** bonomiPrinciplesProteinStructural2017

@@ -1,0 +1,35 @@
+@document.meta
+title: index
+description: 
+authors: kathy
+categories: 
+created: 2023-12-01T18:24:25-0700
+updated: 2023-12-02T03:18:13-0700
+version: 1.1.1
+@end
+
+* TOC
+  {:$/Introduction:* Introduction}
+  {:$/Ensembles:* Conformational Ensembles Determine Protein Structure}
+  {:$/Experiments:* Available Experiments}
+
+* Papers
+** bonomiBayesianWeighingElectron2019
+** bonomiSimultaneousDeterminationProtein2018
+** cossioBayesianAnalysisIndividual2013
+** murielAssemblyMacromolecularComplexes2012
+** zhangMultiscaleNaturalMoves2012
+** kirkpatrickOptimizationSimulatedAnnealing1983
+** bonomiMetainferenceBayesianInference2016
+** hellerSequenceSpecificityEntropyDriven2017
+** hummerBayesianEnsembleRefinement2015
+** bonomiDeterminationProteinStructural2019
+** krageljConformationalPropensitiesIntrinsically2013
+** ozenneMappingPotentialEnergy2012
+** marionIntroductionBiologicalNMR2013
+** pannetierOptimized3DNMRSampling2007
+** cloreTheoryPracticeApplications2009
+** gaalswykEmergingRolePhysical
+** ozenneFlexiblemeccanoToolGeneration2012
+** bonomiPrinciplesProteinStructural2017
+
