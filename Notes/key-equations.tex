@@ -1,0 +1,50 @@
+
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{braket}
+
+% Custom commands
+\newcommand{\refsec}[1]{Section~\ref{#1}}
+
+\newcommand{\refeq}[1]{Equation~\ref{#1}}
+\newcommand{\mat}[1]{\mathbf{#1}}
+
+
+\title{Key Equations}
+\author{Maeve Andersen}
+
+\begin{document}
+\maketitle
+
+\section{Nuclear Magnetic resonance}
+\begin{align}
+\Gamma_1 &= \frac{2}{5} \left( \frac{\mu_0}{4\pi} \right)^2 \gamma_1^2 g^2 \mu_B^2 S(S+1)J_{SB}(\omega_I)\\
+\Gamma_2 &= \frac{1}{15} \left( \frac{\mu_0}{4\pi} \right)^2 \gamma_1^2 g^2 \mu_B^2 S(S+1) \left\{ 4 J_{SB}(0) + 3J_{SB}(\omega_I) \right\}\\
+J_{SB}(\omega) &= r^{-6} \frac{\tau_c}{1+ \left( \omega \tau_c \right)^2}\\
+\tau_c &= \left (\tau_r^{-1} + \tau_s^{-1}\right)^{-1}
+\end{align}
+Above are the Solomen Bloemburgen Equations, which describe the longitudinal ($\Gamma_1$) and tranverse ($Gamma_2$) paramagnetic relaxation effect (PRE) rates. \cite{bloembergenProtonRelaxationTimes1961},\cite{solomonRelaxationProcessesSystem1955}
+\section{Silly}
+Here is the equation for engineering. Look at it.
+
+\begin{equation}\label{eq:Engineers}
+    \sin x = x
+\end{equation}
+
+As you can see, \refeq{eq:Engineers} is elegant and exact. 
+
+\bibliographystyle{alpha}
+\bibliography{nmr-eq}
+
+\end{document}
