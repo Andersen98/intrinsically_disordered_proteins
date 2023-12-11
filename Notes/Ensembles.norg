@@ -32,7 +32,7 @@ version: 1.1.1
  
 {wardIntegrativeStructuralBiology2013} The past decade has seen the development of many hybrid methods that combine theory and experiment. 
 
-  {thomasenConformationalEnsemblesIntrinsically2022} The most recent developments however have been in dealing with effects due to averaging over ensembles, as well as dealing with errors in experimental data, noise, and ambiguous data. 
+  zthomasenConformationalEnsemblesIntrinsically2022} The most recent developments however have been in dealing with effects due to averaging over ensembles, as well as dealing with errors in experimental data, noise, and ambiguous data. 
 
 ** Bayesian Inference methods
 
@@ -46,6 +46,11 @@ version: 1.1.1
    {gaalswykEmergingRolePhysical} Next, there is an uncertainty ensemble, which is a collection of conformations that are degenerate due to sparse, ambiguous, or noisy data.
    {gaalswykEmergingRolePhysical} Uncertainty ensembles may be further broken down as procedurally generated, or as coming from a well defined distribution.
    This section will review the different types of "ensembles" used in structural biology. 
+
+** Modeling IDPs With Bayesian Statistics
+
+   {fisherModelingIntrinsicallyDisordered2010} \$f_{\vec M | \vec W} (\vec m | \vec w ) \$ is the likelyhood function, which describes the probability of observing the experimental observations \$ \vec m \$ given the weights \$ \vec w \$.
+   {fisherModelingIntrinsicallyDisordered2010} Given a set of unique structures \$ {s_i...s_n}\$, one could use a Boltzman distribution for the weights. Here, the Boltzman distribution for a set if unique structures is \$ w_i^P = \frac{e^{-U(s_i)/k_B T}}{\sum_j e^{-U(s_i)/k_B T}} \$.
 
 ** Conformational Sampling
 
