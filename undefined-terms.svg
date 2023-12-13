@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="296.68317mm"
+   height="210.06827mm"
+   viewBox="0 0 296.68317 210.06827"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="undefined-terms.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.75900673"
+     inkscape:cx="394.59465"
+     inkscape:cy="214.75435"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     inkscape:window-x="2560"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.68594927,9.0955343e-4)">
+    <rect
+       style="fill:#ffccaa;stroke:none;stroke-width:1.665"
+       id="rect1"
+       width="296.68317"
+       height="210.06827"
+       x="0.68594927"
+       y="-0.00090955343" />
+    <g
+       id="g5"
+       transform="translate(-1.4788758,-24.277516)">
+      <rect
+         style="fill:#aaeeff;stroke:none;stroke-width:1.665"
+         id="rect2"
+         width="174.62036"
+         height="46.430592"
+         x="21.093109"
+         y="31.951061" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000;stroke:none;stroke-width:1.665"
+         x="39.28693"
+         y="54.191475"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="stroke-width:1.665"
+           x="39.28693"
+           y="54.191475">Definition Road Map</tspan></text>
+    </g>
+    <g
+       id="g8"
+       transform="translate(3.8399538,41.005102)">
+      <rect
+         style="fill:#aaffee;stroke:none;stroke-width:1.665"
+         id="rect3"
+         width="69.676781"
+         height="60.08358"
+         x="12.151258"
+         y="105.71875" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000;stroke:none;stroke-width:1.665"
+         x="21.591824"
+         y="140.96347"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="stroke-width:1.665"
+           x="21.591824"
+           y="140.96347">biasing</tspan></text>
+    </g>
+    <g
+       id="g7"
+       transform="translate(31.103966,42.697379)">
+      <rect
+         style="fill:#aaffee;stroke:none;stroke-width:1.665"
+         id="rect4"
+         width="86.873337"
+         height="58.818352"
+         x="88.699104"
+         y="106.25767" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#000000;stroke:none;stroke-width:1.665"
+         x="92.974289"
+         y="140.90382"
+         id="text4"><tspan
+           sodipodi:role="line"
+           id="tspan4"
+           style="stroke-width:1.665"
+           x="92.974289"
+           y="140.90382">reweighting</tspan></text>
+    </g>
+    <g
+       id="g6"
+       transform="translate(-132.44853,-35.181439)">
+      <rect
+         style="fill:#aaffee;stroke:none;stroke-width:1.665"
+         id="rect5"
+         width="106.09132"
+         height="61.332966"
+         x="180.37563"
+         y="107.3923" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1.665"
+         x="232.09258"
+         y="137.07768"
+         id="text5"><tspan
+           sodipodi:role="line"
+           id="tspan5"
+           style="text-align:center;text-anchor:middle;stroke-width:1.665"
+           x="232.09258"
+           y="137.07768">conformational</tspan><tspan
+           sodipodi:role="line"
+           style="text-align:center;text-anchor:middle;stroke-width:1.665"
+           x="232.09258"
+           y="154.71655"
+           id="tspan6">ensembles</tspan></text>
+    </g>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:1.665;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="M 78.064677,125.86451 53.912626,159.75195"
+       id="path8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.665;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="m 127.78493,126.39246 25.75594,35.15874"
+       id="path9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.665;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="m 156.55224,104.83638 h 47.11228"
+       id="path10" />
+    <rect
+       style="fill:#55ddff;stroke:none;stroke-width:1.665;stroke-opacity:1"
+       id="rect10"
+       width="63.330811"
+       height="43.27702"
+       x="224.28717"
+       y="84.166061" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.1111px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:1.665;stroke-opacity:1"
+       x="254.98424"
+       y="99.965126"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="stroke-width:1.665"
+         x="254.98424"
+         y="99.965126">forward</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.665"
+         x="254.98424"
+         y="117.604"
+         id="tspan11">model</tspan></text>
+  </g>
+</svg>
